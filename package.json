@@ -3,7 +3,12 @@
   "version": "0.1.0",
   "description": "Helpers to build async handlers/middleware for express",
   "main": "src/index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npm run lint && nyc npm run test:unit",
+    "test:unit": "ava",
+    "lint": "eslint . --ext .js,.json",
+    "publish-coverage": "codecov"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/omni-tools/async-express-helpers.git"
@@ -24,5 +29,11 @@
   },
   "homepage": "https://github.com/omni-tools/async-express-helpers#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@-k/eslint-plugin": "^0.2.0",
+    "ava": "^2.4.0",
+    "codecov": "^3.6.1",
+    "eslint": "^6.7.2",
+    "nyc": "^14.1.1"
+  }
 }
