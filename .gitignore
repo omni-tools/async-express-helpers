@@ -1,0 +1,13 @@
+.idea
+.DS_Store
+node_modules/
+*.log
+*.pid
+
+# scratch files
+*~
+.nyc_output
+coverage
+lib
+private
+tmp
