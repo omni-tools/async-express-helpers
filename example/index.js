@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 const delay = require('delay');
 const express = require('express');
 const {asyncHandler, asyncMiddleware} = require('../src'); // use 'async-express-helpers' in practice
