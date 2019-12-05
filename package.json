@@ -24,6 +24,11 @@
   "engines": {
     "node": ">=8.10"
   },
+  "files": [
+    "src",
+    "LICENSE.txt",
+    "package.json"
+  ],
   "bugs": {
     "url": "https://github.com/comni-tools/async-express-helpers/issues"
   },
