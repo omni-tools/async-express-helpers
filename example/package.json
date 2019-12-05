@@ -1,0 +1,17 @@
+{
+  "name": "async-express-helpers-example",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Example of use of async helper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Adriean Khisbe <adriean.khisbe@live.fr> (https://github.com/AdrieanKhisbe/)",
+  "license": "MIT",
+  "dependencies": {
+    "delay": "^4.3.0",
+    "express": "^4.17.1"
+  }
+}
