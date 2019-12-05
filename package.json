@@ -1,0 +1,28 @@
+{
+  "name": "async-express-helpers",
+  "version": "0.1.0",
+  "description": "Helpers to build async handlers/middleware for express",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omni-tools/async-express-helpers.git"
+  },
+  "keywords": [
+    "express",
+    "async",
+    "middleware",
+    "handler"
+  ],
+  "author": "Adrien Becchis <adriean.khisbe@live.fr> (https://github.com/AdrieanKhisbe/)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "bugs": {
+    "url": "https://github.com/comni-tools/async-express-helpers/issues"
+  },
+  "homepage": "https://github.com/omni-tools/async-express-helpers#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
