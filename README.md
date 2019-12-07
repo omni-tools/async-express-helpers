@@ -51,7 +51,7 @@ Here are the two modes:
   ```js
   app.use(
     asyncMiddleware(async req => {
-      // do something there, adding something for req for example
+      // do something here, adding something for req for example
       // return false if you want to cancel implicit next
     }, true)
   );
