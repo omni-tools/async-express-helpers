@@ -70,3 +70,8 @@ curl localhost:3223\?error=handler
 curl localhost:3223\?error=implicit
 curl localhost:3223\?error=explicit
 ```
+
+## Related projects
+You might also be interested in these projects:
+- [express-async-handler](https://github.com/Abazhenov/express-async-handler): Simple middleware for handling exceptions inside of async express routes.
+- [async-middleware](https://github.com/blakeembrey/async-middleware): Wrap an asynchronous middleware (or handler) function for Express, Connect, router, etc.
