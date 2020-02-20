@@ -37,9 +37,9 @@
   "devDependencies": {
     "@-k/eslint-plugin": "^0.2.0",
     "ava": "^2.4.0",
-    "codecov": "^3.6.1",
+    "codecov": "^3.6.5",
     "delay": "^4.3.0",
-    "eslint": "^6.7.2",
-    "nyc": "^14.1.1"
+    "eslint": "^6.8.0",
+    "nyc": "^15.0.0"
   }
 }
