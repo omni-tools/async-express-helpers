@@ -35,7 +35,7 @@
   "homepage": "https://github.com/omni-tools/async-express-helpers#readme",
   "dependencies": {},
   "devDependencies": {
-    "@-k/eslint-plugin": "^0.2.0",
+    "@-k/eslint-plugin": "^0.3.1",
     "ava": "^2.4.0",
     "codecov": "^3.6.5",
     "delay": "^4.3.0",
